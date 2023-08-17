@@ -1,0 +1,24 @@
+.card-container {
+  align-items: center;
+  background-color: rgb(128, 176, 104);
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 6px 6px 14px rgba(18, 48, 9, 0.9);
+  display: flex;
+  flex-flow: column wrap;
+  height: 500px; 
+  justify-content: space-around;
+  margin: 14px 16px;
+  width: 35%;
+}
+
+img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+h2 {
+  color: rgb(24, 104, 49);
+  font-size: 2.4rem;
+}
