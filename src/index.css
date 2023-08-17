@@ -3,12 +3,17 @@
   padding: 0;
 }
 
-body {
-  background-color: rgb(224, 221, 218);
+h1 {
+  font-family: Tahoma, sans-serif;
+  color: rgb(8, 53, 15);
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 20px 0;
+  text-shadow: 1px 1px 2px rgb(57, 175, 77);
 }
 
 .main-container {
-  background-color: aqua;
+  background-color: rgb(231, 248, 218);
   display: flex;
   flex-flow: column wrap;
   align-items: center;

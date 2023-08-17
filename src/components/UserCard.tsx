@@ -5,7 +5,10 @@ function UserCard({ userInfo }: { userInfo: UserCardProps }) {
   return (
     <section className="card-container">
       <h2>{ userInfo.name }</h2>
-      <p>{ userInfo.login }</p>
+      <p>
+        <span className="subtitle">Usuário no github:</span>
+        { userInfo.login }
+      </p>
       <img
         src={ userInfo.avatar_url }
         alt={ userInfo.name }
@@ -14,10 +17,16 @@ function UserCard({ userInfo }: { userInfo: UserCardProps }) {
         href={ userInfo.homepage }
         target='_blanck'
       >
-        { userInfo.homepage }
+        <span className="github-link">Github de { userInfo.name }</span>
       </a>
-      <p>{ userInfo.followers }</p>
-      <p>{ userInfo.following }</p>
+      <p>
+        <span className="subtitle">Pessoas Seguidoras:</span>
+        { userInfo.followers }
+      </p>
+      <p>
+        <span className="subtitle">Seguindo:</span>
+        { userInfo.following }
+      </p>
       { userInfo.company && <span className="tryber">TRYBER</span> }
     </section>
   );

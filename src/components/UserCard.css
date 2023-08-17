@@ -1,51 +1,67 @@
 .card-container {
   align-items: center;
-  background-color: rgb(171, 149, 149);
+  background-color: rgb(171, 189, 136);
   border-radius: 8px;
-  box-shadow: 6px 6px 14px rgba(88, 88, 88, 0.9);
+  box-shadow: 6px 6px 14px rgba(18, 48, 9, 0.9);
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  margin: 16px 14px;
+  margin: 20px 0;
   height: 500px;
-  padding: 20px;
+  padding: 10px 0;
   width: 40%;
 }
 
 h2 {
-  color: rgb(255, 255, 255);
+  color: rgb(33, 79, 35);
+  text-shadow: 1px 1px 2px rgb(33, 122, 48);
   font-size: 2rem;
   font-weight: 500;
-  margin: 10px 0;
+  margin: 10px;
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: rgb(33, 79, 35);
   font-size: 1.4rem;
   font-weight: 300;
   margin: 10px 0;
+  text-shadow: 1px 1px 2px rgb(57, 175, 77);
 }
 
 img {
   border-radius: 50%;
-  height: 240px;
-  width: 240px;
+  height: 200px;
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(33, 79, 35);
   font-size: 1.2rem;
   font-weight: 300;
   margin: 10px 0;
-  text-decoration: none;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px rgb(57, 175, 77);
 }
 
 .tryber {
-  color: rgb(255, 255, 255);
+  color: rgb(52, 225, 72);
   font-size: 1.2rem;
   font-weight: 300;
   position: relative;
-  bottom: 340px;
+  bottom: 330px;
   left: 140px;
-  rotate: -30deg;
+  rotate: -29deg;
+  text-shadow: 2px 4px 3px rgb(14, 33, 24) , 0
+    0 1em rgb(88, 221, 6) , 0 0 0.2em rgb(4, 3, 3);
+}
+
+.github-link {
+  text-shadow: 1px 1px 2px rgb(57, 175, 77);
+}
+
+.subtitle {
+  color: rgb(39, 49, 39);
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 10px 5px;
+  text-shadow: 1px 1px 2px rgb(57, 175, 77);
 }
