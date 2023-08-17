@@ -1,9 +1,10 @@
-import './App.css';
 import ListUsers from './components/ListUsers';
 
 function App() {
   return (
-    <ListUsers />
+    <main className="main-container">
+      <ListUsers />
+    </main>
   )
 }
 

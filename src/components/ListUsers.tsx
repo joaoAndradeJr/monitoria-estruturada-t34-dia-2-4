@@ -1,15 +1,16 @@
 import { database } from '../../data.ts';
 import UserCard from './UserCard.tsx';
+import './ListUsers.css';
 
 function ListUsers() {
   return (
-    <main>
+    <section className="list-container">
       {
         database.map((item) => (
           <UserCard userInfo={ item } key={ item.avatar_url } />
         ))
       }
-    </main>
+    </section>
   );
 }
 

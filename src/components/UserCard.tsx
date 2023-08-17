@@ -1,8 +1,9 @@
 import { UserCardProps } from '../types/UserCardProps';
+import './UserCard.css';
 
 function UserCard({ userInfo }: { userInfo: UserCardProps }) {
   return (
-    <section>
+    <section className="card-container">
       <h2>{ userInfo.name }</h2>
       <p>{ userInfo.login }</p>
       <img
@@ -17,7 +18,7 @@ function UserCard({ userInfo }: { userInfo: UserCardProps }) {
       </a>
       <p>{ userInfo.followers }</p>
       <p>{ userInfo.following }</p>
-      <p>{ userInfo.company }</p>
+      { userInfo.company && <span className="tryber">TRYBER</span> }
     </section>
   );
 }

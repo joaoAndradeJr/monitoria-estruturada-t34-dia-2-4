@@ -1,0 +1,9 @@
+.list-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 26px 0;
+}
