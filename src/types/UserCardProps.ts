@@ -1,3 +1,5 @@
+type companyTypes = '@betrybe' | 'Trybe' | '@betrybe ';
+
 export type UserCardProps = {
   name: string,
   login: string,
@@ -5,4 +7,5 @@ export type UserCardProps = {
   homepage: string,
   followers: number,
   following: number,
+  company: companyTypes | null,
 };

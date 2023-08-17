@@ -17,6 +17,7 @@ function UserCard({ userInfo }: { userInfo: UserCardProps }) {
       </a>
       <p>{ userInfo.followers }</p>
       <p>{ userInfo.following }</p>
+      <p>{ userInfo.company }</p>
     </section>
   );
 }

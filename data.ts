@@ -5,7 +5,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/68722562?v=4',
     homepage: 'https://github.com/IvanRafael-Dev',
     followers: 127,
-    following: 200
+    following: 200,
+    company: 'Trybe'
   },
   {
     name: 'Flávio Sugano',
@@ -13,7 +14,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/18253542?v=4',
     homepage: 'https://github.com/flaviosugano',
     followers: 116,
-    following: 63
+    following: 63,
+    company: '@betrybe '
   },
   {
     name: 'Filipe Santana de Oliveira',
@@ -21,7 +23,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/85876429?v=4',
     homepage: 'https://github.com/FilipeSkmc',
     followers: 89,
-    following: 24
+    following: 24,
+    company: null
   },
   {
     name: 'Joao Andrade Junior',
@@ -29,7 +32,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/67603552?v=4',
     homepage: 'https://github.com/joaoAndradeJr',
     followers: 30,
-    following: 7
+    following: 7,
+    company: '@betrybe'
   },
   {
     name: 'Ricardo Raposo',
@@ -37,7 +41,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/50217712?v=4',
     homepage: 'https://github.com/ricardoraposo',
     followers: 15,
-    following: 15
+    following: 15,
+    company: null
   },
   {
     name: 'Carlos Antonio Sales de Oliveira Junior',
@@ -45,7 +50,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/54126980?v=4',
     homepage: 'https://github.com/jrcarlosanto',
     followers: 5,
-    following: 2
+    following: 2,
+    company: null
   },
   {
     name: 'Ivan Leituga de Miranda',
@@ -53,7 +59,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/125044910?v=4',
     homepage: 'https://github.com/ivanleituga',
     followers: 3,
-    following: 2
+    following: 2,
+    company: null
   },
   {
     name: 'Ana Paula Lacerda',
@@ -61,7 +68,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/133919449?v=4',
     homepage: 'https://github.com/Nyllaah',
     followers: 2,
-    following: 7
+    following: 7,
+    company: null
   },
   {
     name: 'Thiago Silva',
@@ -69,7 +77,8 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/113719342?v=4',
     homepage: 'https://github.com/thiagosilva-tech',
     followers: 1,
-    following: 0
+    following: 0,
+    company: null
   },
   {
     name: 'Artur Nunes da Rocha',
@@ -77,6 +86,7 @@ export const database = [
     avatar_url: 'https://avatars.githubusercontent.com/u/129127097?v=4',
     homepage: 'https://github.com/ArturRocha-Script',
     followers: 1,
-    following: 1
+    following: 1,
+    company: null
   }
 ];
